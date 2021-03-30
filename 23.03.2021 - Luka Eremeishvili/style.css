@@ -1,0 +1,218 @@
+@charset "UTF-8";
+@font-face{
+    font-family: webfont;
+    src: url(fonts/Playball.ttf);
+}
+/* CSS Document */
+*{
+    margin: 0 auto;
+}
+html{
+    scroll-behavior: smooth;
+}
+/* home */
+.borders{
+    margin-top: 20px;
+    width: 400px;
+    height: 200px;
+    border: 1px solid black;
+}
+p{
+    font-size: 20px;
+    margin-top: 20px;
+}
+.italic{
+    font-style: italic;
+}
+.oblique{
+    font-style: oblique;
+}
+.borders1{
+    margin-top: 20px;
+    width: 400px;
+    height: 200px;
+    border: 1px solid black;
+    background-color: bisque;
+    text-align: center;
+}
+.borders1 h2{
+    text-shadow: 2px 2px white;
+}
+.borders1 p{
+    text-shadow: 2px 2px white;
+}
+.borders h2{
+    float: right;
+    color: red;
+    margin-top: 20px;
+    font-size: 30px;
+    font-weight: bold;
+}
+.borders h3{
+    float: right;
+    margin-right: 5px;
+    margin-top: 20px;
+}
+.borders ul li{
+    list-style-type: none;
+}
+.borders ul{
+    margin-top: 50px;
+}
+.red{
+    background-color: red;
+    float: left;
+    margin-left: 20px;
+    width:200px;
+    height: 5px;
+}
+.black{
+    background-color: purple;
+    float: left;
+    margin-left: 20px;
+    width:200px;
+    height: 5px;
+}
+.borders:nth-child(4){
+    height: 250px;
+}
+h1{
+    margin-top: 20px;
+}
+.bottom{
+    text-decoration: underline;
+}
+.middle{
+    text-decoration: line-through;
+}
+.top{
+    text-decoration: overline;
+}
+.borders:nth-child(6) h1{
+    font-size: 16px;
+    letter-spacing: 3px;
+}
+.borders:nth-child(6){
+    height: 280px;
+    width: 600px;
+}
+.borders:nth-child(6) ul li{
+    letter-spacing: 5px;
+    list-style-type: initial;
+}
+.border-style{
+    width: 500px;
+    height: 600px;
+    border: 1px solid black;
+}
+.dotted{
+    border: 3px dotted aqua;
+}
+.dashed{
+    border: 3px dashed aqua;
+}
+.solid{
+    border: 3px solid aqua;
+}
+.double{
+    border: 3px double aqua;
+}
+.groove{
+    border: 3px groove aqua;
+}
+.ridge{
+    border: 3px ridge aqua;
+}
+.inset{
+    border: 3px inset aqua;
+}
+.outset{
+    border: 3px outset aqua;
+}
+.none{
+    border: 3px none aqua;
+}
+.hidden{
+    border: 3px hidden aqua;
+}
+.mix{
+    border-bottom: 3px solid aqua;
+   border-top: 3px dotted aqua;
+    border-right: 3px aqua double;
+    border-left: 3px aqua groove;
+}
+
+.radius{
+    width: 500px;
+    height: 700px;
+    border: 1px solid black;
+}
+.brown{
+    border: 2px solid black;
+    border-radius: 20px;
+    padding: 10px;
+    background-color: brown;
+    width: 250px;
+    height: 150px;
+}
+.white{
+    border: 3px solid black;
+    border-radius: 20px;
+    padding: 10px;
+    width: 250px;
+    height: 150px;
+}
+.img{
+    border: 1px solid black;
+    border-radius: 30px;
+    padding: 10px;
+    width: 250px;
+    height: 150px;
+    background-image:url(images/cloud.jpg);
+    background-size: 100%;
+}
+.brown1{
+    border-radius: 15px 50px 30px 5px;
+    padding: 10px;
+    background-color: brown;
+    width: 250px;
+    height: 150px;
+}
+.brown2{
+    border-radius: 15px 50px 30px;
+    padding: 10px;
+    background-color: brown;
+    width: 250px;
+    height: 150px;
+}
+.brown3{
+    border-radius: 15px 50px;
+    padding: 10px;
+    background-color: brown;
+    width: 250px;
+    height: 150px;
+}
+.brown4{
+    border-radius: 50px/15px;
+    border: 2px solid black;
+    padding: 10px;
+    background-color: brown;
+    width: 250px;
+    height: 150px;
+}
+.brown5{
+    border-radius: 15px/50px;
+    border: 2px solid black;
+    padding: 10px;
+    background-color: brown;
+    width: 250px;
+    height: 150px;
+}
+.brown6{
+    border-radius: 50%;
+    border: 2px solid black;
+    padding: 10px;
+    background-color: brown;
+    width: 250px;
+    height: 150px;
+}

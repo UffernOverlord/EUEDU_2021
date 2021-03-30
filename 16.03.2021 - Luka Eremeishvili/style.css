@@ -1,0 +1,137 @@
+@charset "UTF-8";
+@font-face{
+    font-family: webfont;
+    src: url(fonts/Playball.ttf);
+}
+/* CSS Document */
+*{
+    margin: 0 auto;
+}
+html{
+    scroll-behavior: smooth;
+}
+/* home */
+#div0{
+    float: left;
+    width: 100%;
+    height: 724px;
+    background-color: gray;
+}
+.div{
+    margin-top: 200px;
+    width: 450px;
+    height: 500px;
+}
+h2 a{
+    text-decoration: none;
+    color: red;
+}
+h2 span{
+    color: rgb(2, 2, 241);
+}
+h2{
+    font-family: webfont;
+    font-weight: bold;
+    color:black;
+    font-size: 20px;
+}
+
+#div0 h3{
+    padding-bottom: 20px;
+    margin-top: 20px;
+}
+/* home */
+/* about */
+.div1{
+    float: left;
+    width: 100%;
+    height: 1400px;
+    position: absolute;
+    background-position: center;
+    background-image: url(images/download.jpg);
+    background-size: 100% 100%;
+    background-blend-mode: overlay;
+    background-color: lightblue;
+}
+.heading{
+    padding-top: 50px;
+    width: 1140px;
+    height: 150px;
+}
+.heading h2{
+    font-weight: bold;
+}
+p span{
+    font-weight: bold;
+}
+.heading strong{
+    font-size: 40px;
+}
+.heading h1{
+    font-weight: bold;
+}
+.heading ul li{
+    color: red;
+}
+.div2{
+    margin-top: 50px;
+    width: 1140px;
+    height: 400px;
+}
+.div2 h3{
+    margin-top: 20px;
+    text-align: center;
+}
+/* about */
+/* work3 */
+.div5{
+    float: left;
+    width: 100%;
+    height: 1400px;
+    position: absolute;
+    background-position: center;
+    background-image: url(images/cloud.jpg);
+    background-size: 100% 100%;
+    background-blend-mode: overlay;
+    background-color: lightblue;
+}
+.regions{
+    float: left;
+    width: 100%;
+    height: 1400px;
+}
+.div5 h1{
+    width: 100%;
+    color: red;
+    padding-top: 50px;
+}
+.div5 ul li{
+    list-style-type: circle;
+}
+.div5 h2{
+    text-align: center;
+}
+.div5 h3{
+    text-align: center;
+}
+p{
+    text-align: justify;
+}
+.div5 a{
+    font-weight: bold;
+}
+/* work3 */
+/* nav */
+.nav{
+    float: left;
+    width: 100%;
+    height: 750px;
+    background-color: bisque;
+}
+.menu{
+    background-color: white;
+    margin-top: 100px;
+    width: 1140px;
+    height: 450px;
+}
+/* nav */
