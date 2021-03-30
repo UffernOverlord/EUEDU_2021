@@ -95,3 +95,207 @@ h1{
     font-weight: bold;
     font-size: 20px;
 }
+/* html5 */
+/* css3 */
+#css-home{
+    margin: 0 auto;
+    width: 1140px;
+}
+#css-home img{
+    width: 15%;
+    height: 200px;
+}
+#css-home a{
+    margin-top: 150px;
+    float: left;
+    color: black;
+    font-weight: bold;
+    font-size: 20px;
+}
+#css-home p{
+    margin-top: 20px;
+}
+/* css3 */
+/* js */
+#js-home{
+    margin: 0 auto;
+    width: 1140px;
+}
+#js-left img{
+    float: left;
+}
+#js-left{
+    margin-top: 100px;
+    float: left;
+    width: 100%;
+}
+#js-right{
+    margin-top: 150px;
+    float: left;
+    width: 100%;
+}
+#js-right img{
+    float: right;
+}
+#js-home img{
+    width: 15%;
+    height: 200px;
+}
+#js-home a{
+    margin-top: 150px;
+    float: left;
+    color: black;
+    font-weight: bold;
+    font-size: 20px;
+}
+#js-home p{
+    margin-top: 20px;
+}
+/* js */
+/* php */
+#php-home{
+    margin: 0 auto;
+    width: 1140px;
+}
+#php-home img{
+    width: 15%;
+    height: 200px;
+}
+#php-home a{
+    margin-top: 150px;
+    float: left;
+    color: black;
+    font-weight: bold;
+    font-size: 20px;
+}
+#php-home p{
+    margin-top: 20px;
+}
+#php-home h2{
+    margin-top: 20px;
+}
+#php-home img{
+    margin-top: 20px;
+}
+/* php */
+/* adobe */
+#adobe-home{
+    margin: 0 auto;
+    width: 1140px;
+}
+#adobe-left img{
+    float: left;
+    padding-right: 30px;
+}
+#adobe-left{
+    margin-top: 100px;
+    float: left;
+    width: 100%;
+}
+#adobe-right{
+    margin-top: 150px;
+    float: left;
+    width: 100%;
+}
+#adobe-right img{
+    margin-left: 450px;
+}
+#adobe-home img{
+    width: 15%;
+    height: 200px;
+}
+#adobe-home a{
+    margin-top: 150px;
+    float: left;
+    color: black;
+    font-weight: bold;
+    font-size: 20px;
+}
+#adobe-home p{
+    text-align: justify;
+    margin-top: 20px;
+}
+/* adobe */
+/* gradients */
+.gradient-base{
+    margin: 0 auto;
+    width: 800px;
+    height: 400px;
+}
+.gradient{
+    float: left;
+    margin-top: 50px;
+    width: 800px;
+    height: 130px;
+    background-color: silver;
+    border: 2px solid black;
+}
+#horizontal{
+    float: left;
+    border: 2px solid blue;
+    margin-top: 20px;
+    margin-left: 50px;
+    width: 150px;
+    height: 100px;
+    background: linear-gradient(to right,red,green,blue);
+}
+#vertical{
+    float: left;
+    border: 2px solid blue;
+    margin-top: 20px;
+    margin-left: 20px;
+    width: 150px;
+    height: 100px;
+    background: linear-gradient(red,green,blue);
+}
+#diagonal-topleft{
+    float: left;
+    border: 2px solid blue;
+    margin-top: 20px;
+    margin-left: 20px;
+    width: 150px;
+    height: 100px;
+    background: linear-gradient(to top left,red,green,blue);
+}
+#diagonal-bottomleft{
+    float: left;
+    border: 2px solid blue;
+    margin-top: 20px;
+    margin-left: 20px;
+    width: 150px;
+    height: 100px;
+    background: linear-gradient(to bottom left,red,green,blue);
+}
+.radial{
+    width: 150px;
+    height: 100px;
+    float: left;
+    margin-top: 20px;
+    margin-left: 20px;
+    background: radial-gradient(red 30%, green 45%,blue 25%);
+}
+.s50{
+    width: 150px;
+    height: 100px;
+    float: left;
+    margin-top: 20px;
+    margin-left: 20px;
+    background: radial-gradient(red 60%,green 5%,blue 35%);
+}
+.repeating{
+    width: 150px;
+    height: 100px;
+    float: left;
+    margin-top: 20px;
+    margin-left: 20px;
+    background: repeating-radial-gradient(red 50%,green 10%,blue 40%);
+}
+.s30{
+    width: 150px;
+    height: 100px;
+    float: left;
+    margin-top: 20px;
+    margin-left: 20px;
+    background: radial-gradient(red 20%,green 20%,blue 30%);
+}
+/* gradients */
