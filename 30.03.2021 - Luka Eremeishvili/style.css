@@ -57,6 +57,7 @@ h1{
 }
 /* footer */
 .footer{
+    float: left;
     width: 100%;
     text-align: center;
 }
@@ -77,4 +78,20 @@ h1{
 .left-side p{
     margin-right: 20px;
     float: right;
+}
+/* html5 */
+#html-home{
+    margin: 0 auto;
+    width: 1140px;
+}
+#html-home img{
+    width: 15%;
+    height: 200px;
+}
+#html-home a{
+    margin-top: 150px;
+    float: left;
+    color: black;
+    font-weight: bold;
+    font-size: 20px;
 }
