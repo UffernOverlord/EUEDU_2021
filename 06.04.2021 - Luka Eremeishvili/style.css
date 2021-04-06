@@ -60,3 +60,12 @@ table.info{
 .trouble{
     height: 200px;
 }
+a{
+    text-decoration: none;
+    color: white;
+}
+.table-info{
+    margin-left: 300px;
+    background-color: gray;
+    color: white;
+}
