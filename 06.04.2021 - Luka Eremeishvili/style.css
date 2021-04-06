@@ -26,6 +26,9 @@ table.data{
 table, th, td{
     border: 1px solid black;
 }
+th,td{
+    height: 20px;
+}
 table.tab{
     margin-left: 350px;
     width: 800px;
