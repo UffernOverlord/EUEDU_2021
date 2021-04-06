@@ -1,0 +1,44 @@
+@charset "UTF-8";
+@font-face{
+    font-family: webfont;
+    src: url(fonts/Playball.ttf);
+}
+/* CSS Document */
+*{
+    margin: auto;
+    margin: 0;
+    padding: 0;
+}
+html{
+    scroll-behavior: smooth;
+}
+
+/* home */
+p{
+    margin-left: 720px;
+    margin-top: 50px;
+}
+table.data{
+    margin-left: 550px;
+    width: 400px;
+    height: 200px;
+}
+table, th, td{
+    border: 1px solid black;
+}
+table.tab{
+    margin-left: 350px;
+    width: 800px;
+    height: 300px;
+}
+table.info{
+    margin-top: 50px;
+    margin-left: 350px;
+    width: 800px;
+    height: 300px;
+}
+.gray{
+    background-color: rgb(161, 158, 158);
+    width: 100%;
+    height: 500px;
+}
