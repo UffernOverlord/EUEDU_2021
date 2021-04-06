@@ -45,3 +45,18 @@ table.info{
     width: 100%;
     height: 500px;
 }
+.ti{
+    margin-top: 50px;
+    margin-left: 350px;
+    width: 800px;
+    height: 500px;
+}
+.ti th{
+    height: 100px;
+}
+.ti span{
+    float: left;
+}
+.trouble{
+    height: 200px;
+}
