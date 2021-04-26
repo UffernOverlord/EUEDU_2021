@@ -1,0 +1,29 @@
+@charset "UTF-8";
+@font-face{
+    font-family: webfont;
+    src: url(fonts/Playball.ttf);
+}
+/* CSS Document */
+*{
+    margin: auto;
+    margin: 0;
+    padding: 0;
+}
+html{
+    scroll-behavior: smooth;
+}
+
+.cxrili{
+    margin-top: 100px!important;
+    margin: 0 auto;
+    width: 700px;
+    height: 400px;
+    border: 2px solid black;
+    text-align: center;
+}
+table, th, td{
+    border: 1px solid black;
+}
+th, td{
+    padding: 40px;
+}

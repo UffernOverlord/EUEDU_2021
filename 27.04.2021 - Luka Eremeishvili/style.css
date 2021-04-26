@@ -1,0 +1,229 @@
+table{
+    border: solid;
+    margin: auto;
+    width: 500px;
+    height: 400px;
+}
+.td1{
+    border: solid;
+    background-color: rgb(131, 255, 74);
+}
+.td2{
+    border: solid;
+    width: 50px;
+    background-color: rgb(148, 255, 250);
+}
+.td2-1{
+    border: solid;
+    background-color: rgb(131, 255, 74);
+}
+.td3{
+    border: solid;
+    width: 50px;
+    background-color: rgb(148, 255, 250);
+}
+.td3-1 {
+    border: solid;
+    background-color: rgb(131, 255, 74);
+}
+.td4{ 
+    border: solid;
+    width: 50px;
+    background-color: rgb(148, 255, 250);
+}
+.td4-1 {
+    border: solid;
+    background-color: red;
+}
+.td4-2{
+    border: solid;
+    background-color: blue;
+}
+.td5 {
+    border: solid;
+    background-color: green;
+}
+.td5-1{
+    border: solid;
+    background-color: yellow;
+}
+.ahref {
+    text-align: center;
+}
+.container{
+    border: solid 1px;
+    width: 600px;
+    height: 550px;
+    margin: auto;
+}
+.brder1{
+    border: solid 5px;
+    background-color: green;
+    color: white;
+    height: 100px;
+}
+.brder2{
+    border: solid 1px;
+    background-color: blue;
+    height: 30px;
+    width: 120px;
+    margin: 20px;
+
+}
+.brder3{
+    border: solid 1px;
+    background-color: blue;
+    height: 30px;
+    width: 120px;
+    margin: 20px;
+}
+.brder4{
+    border: solid 1px;
+    background-color: blue;
+    height: 30px;
+    width: 120px;
+    margin: 20px;
+}
+.brder5{
+    border: solid 1px;
+    background-color: blue;
+    height: 30px;
+    width: 120px;
+    margin: 20px;
+}
+.brder6{
+    border: solid 1px;
+    background-color: blue;
+    height: 30px;
+    width: 120px;
+    margin: 20px;
+}
+.lastborder{
+    border: solid 5px;
+    background-color: green;
+    color: white;
+    height: 100px;
+    text-align: center;
+}
+.B2{
+    border: solid 2px;
+    width: 700px;
+    height: 400px;
+    margin: auto;
+    background-color: beige;
+}
+.brd1{
+    border: solid 0px;
+    width: 110px;
+    height: 120px;
+    position: relative;
+    left: 50px;
+    top: 50px;
+    box-sizing: border-box;
+    background-color: red;
+}
+.brd2{
+    border: solid 0px;
+    width: 110px;
+    height: 120px;
+    position: relative;
+    left: 100px;
+    top: -20px;
+    background-color: green;
+}
+.brd3 {
+    border: solid 0px;
+    width: 110px;
+    height: 120px;
+    position: relative;
+    left: 160px;
+    top: -90px;
+    background-color: blue;
+}
+.brd4{
+    border: solid 0px;
+    width: 110px;
+    height: 120px;
+    position: relative;
+    left: 220px;
+    top: -150px;
+    background-color: yellow;
+}
+.bigborder {
+    border: solid 2px;
+    background-color: silver;
+    margin: auto;
+    width: 900px;
+    height: 500px;
+}
+.p1{
+    position: relative;
+    left: 180px;
+    top: 40px;
+    width: 140px;
+}
+.p2{
+    position: relative;
+    left: 80px;
+    top: 80px;
+    width: 140px;
+    
+}
+.p3{
+    position: relative;
+    left: -20px;
+    top: 120px;
+    width: 140px;
+}
+.p4{
+    position: relative;
+    left: -120px;
+    top: 160px;
+    width: 140px;
+}
+.b1{
+    position: relative;
+    left: -110px;
+    top: 160px;
+    width: 140px;
+}
+.b2{
+    position: relative;
+    left: -220px;
+    top: 120px;
+    width: 140px;
+}
+.b3 {
+    position: relative;
+    left: 550px;
+    top: -70px;
+    width: 140px;
+}
+.b4 {
+    position: relative;
+    left: 450px;
+    top: -110px;
+    width: 140px;
+}
+.a1{
+    position: relative;
+    bottom: 152px;
+    right: 1px;
+}
+.a2{
+    position: relative;
+    bottom: 81px;
+}
+.a3{
+    position: relative;
+    float: right;
+    bottom: 332px;
+    width: 150px;
+}
+.a4 {
+    position: relative;
+    float: right;
+    left: 150px;
+    bottom: 680px;
+    width: 150px;
+}
