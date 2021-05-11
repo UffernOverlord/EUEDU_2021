@@ -1,0 +1,107 @@
+@charset "UTF-8";
+@font-face{
+    font-family: webfont;
+    src: url(fonts/Playball.ttf);
+}
+/* CSS Document */
+*{
+    margin: auto;
+    margin: 0;
+    padding: 0;
+}
+html{
+    scroll-behavior: smooth;
+}
+
+.login{
+    margin-top: 50px!important;
+    margin: 0 auto;
+    text-align: center;
+    width: 300px;
+    height: 250px;
+    background-color: rgb(219, 212, 212);
+    border-bottom: 1px solid black;
+    border-left: 1px solid black;
+}
+.login h2{
+    color: purple;
+    font-size: 30px;
+}
+.login form input{
+    padding: 10px 20px;
+    margin-top: 20px;
+    border: none;
+    border-radius: 3px;
+}
+.login form input[type="submit"]{
+    background-color: red;
+    padding: 5px 70px;
+    color: white;
+    font-size: 20px;
+}
+.login a{
+    margin-left: 50px;
+    margin-top: 25px;
+    float: left;
+    color: rgb(141, 46, 141);
+}
+.basic-inputs{
+    margin-top: 50px!important;
+    margin: 0 auto;
+    width: 800px;
+    height: 500px;
+    border: 1px solid black;
+}
+.basic-inputs h2{
+    color: purple;
+    font-size: 20px;
+    margin-left: 20px;
+    margin-top: 25px;
+}
+.basic-inputs h2 span{
+    float: right;
+    margin-right: 20px;
+    margin-top: 10px;
+}
+.basic-inputs label{
+    margin-left: 20px;
+    margin-top: 20px;
+    font-size: 18px;
+    color: purple;
+}
+.basic-inputs form input{
+    margin-top: 40px;
+    font-size: 18px;
+    border: none;
+    border-bottom: 1px solid black;
+    width: 80%;
+}
+.basic-inputs form input[type="text"]{
+    margin-left: 80px;
+}
+.basic-inputs form input[type="email"]{
+    margin-left: 80px;
+}
+.basic-inputs form input[type="password"]{
+    margin-left: 55px;
+}
+.basic-inputs form input.disabled-1{
+    border-bottom: 1px dotted black;
+    margin-left: 20px;
+}
+.text-area{
+    float: left;
+    padding-top: 30px;
+}
+.basic-inputs form textarea{
+    border: none;
+    border-bottom: 1px solid black;
+    width: 80%;
+    margin-left: 60px;
+}
+.question{
+    margin-top: 50px!important;
+    margin: 0 auto;
+    width: 800px;
+    height: 300px;
+}
