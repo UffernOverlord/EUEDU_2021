@@ -12,7 +12,7 @@
 html{
     scroll-behavior: smooth;
 }
-
+/* 1st */
 .login{
     margin-top: 50px!important;
     margin: 0 auto;
@@ -45,6 +45,8 @@ html{
     float: left;
     color: rgb(141, 46, 141);
 }
+/* 1st */
+/* 2nd */
 .basic-inputs{
     margin-top: 50px!important;
     margin: 0 auto;
@@ -106,3 +108,57 @@ html{
     width: 800px;
     height: 300px;
 }
+/* 2nd */
+/* 3rd */
+.third{
+    margin: 0 auto;
+    width: 800px;
+    height: 700px;
+}
+.third form{
+    border: 1px solid rgb(0, 241, 0);
+    background-color: rgb(222, 253, 222);
+    width: 600px;
+    height: 550px;
+    margin: auto;
+}
+.third .border{
+    border: none;
+    height: 300px;
+    width: 300px;
+    margin-left: 280px;
+    margin-top: -300px;
+}
+.third form a{
+    color: rgb(0, 241, 0);
+}
+.third form input[type="text"]
+{
+    width: 250px;
+    height: 30px;
+    border: none;
+    margin: 5px;
+}
+.third hr{
+    height: 1px;
+    border:  none;
+    background: rgb(0, 241, 0);
+}
+.third input[type="submit"]
+{
+    background-color: rgb(93, 226, 93);
+    width: 250px;
+    height: 30px;
+    margin-left: 200px;
+    color: white;
+    font-size: 20px;
+    border: none;
+}
+.third input[type="submit"]:hover{
+    cursor: -webkit-grab;
+    background: green;
+    color: #fff;
+    box-shadow: 2px 2px 5px #555;
+    transition: .3s;
+}
+/* 3rd */
